@@ -2,6 +2,10 @@
 
 Буткемп посвященный основам scala, sbt и chisel.
 
+## Binder
+
+Онлайн версия на [bindr](https://gesis.mybinder.org/binder/v2/gh/SpaceCowboyMax/elvees-chisel-bootcamp/ca65ce9659c15dfee90c509e1bc9fe31348cfb6e)!
+
 ## Installing
 
 Это jupyter notebook, для локального запуска небходимо установить следующие компоненты:
