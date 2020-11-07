@@ -21,7 +21,7 @@ import $ivy.`edu.berkeley.cs::firrtl-diagrammer:1.1.0`
 // Convenience function to invoke Chisel and grab emitted Verilog.
 def getVerilog(dut: => chisel3.core.UserModule): String = {
   import firrtl._
-  return chisel3.Driver.execute(Array[String](), {() => dut}) match {
+  return chisel3.Driver.execute(Array[String]("-td", "./generated"), {() => dut}) match {
     case s:chisel3.ChiselExecutionSuccess => s.firrtlResultOption match {
       case Some(f:FirrtlExecutionSuccess) => f.emitted
     }
