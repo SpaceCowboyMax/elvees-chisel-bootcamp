@@ -1,0 +1,6 @@
+.vscode/
+.ipynb_checkpoints/
+build/
+generated/
+test_run_dir/
+backup
