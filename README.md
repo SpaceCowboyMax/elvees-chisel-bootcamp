@@ -4,7 +4,7 @@
 
 ## Binder
 
-Онлайн версия на [bindr](https://notebooks.gesis.org/binder/v2/gh/SpaceCowboyMax/elvees-chisel-bootcamp/master)!
+Онлайн версия на [binder](https://mybinder.org/v2/gh/SpaceCowboyMax/elvees-chisel-bootcamp/HEAD)!
 
 ## Installing
 
